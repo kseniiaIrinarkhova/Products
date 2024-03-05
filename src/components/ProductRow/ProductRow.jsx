@@ -1,7 +1,7 @@
 
 function ProductRow() {
   return (
-    <tr><td>Row</td></tr>
+    <tr><td>Name</td><td>Price</td></tr>
   )
 }
 

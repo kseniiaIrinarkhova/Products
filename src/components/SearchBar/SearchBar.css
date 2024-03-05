@@ -1,0 +1,14 @@
+.search-form{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    row-gap: 10px;
+}
+
+.search-form input[type=text]{
+    width: 100%;
+    border-radius: 10px;
+    line-height: 2em;
+}

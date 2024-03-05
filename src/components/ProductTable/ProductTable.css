@@ -1,0 +1,11 @@
+table {
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-image:
+        linear-gradient(to bottom,
+            rgba(148, 147, 147, 1),
+            white) 1 100%;
+    border-bottom: none;
+    background: linear-gradient(180deg, rgba(148, 147, 147, 1) 0%, rgba(224, 226, 226, 1) 15%, rgba(224, 226, 226, 1) 40%, rgba(255, 255, 255, 1) 100%);
+}

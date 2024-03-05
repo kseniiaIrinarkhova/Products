@@ -1,14 +1,16 @@
 import ProductCategoryRow from "../ProductCategoryRow/ProductCategoryRow";
 import ProductRow from "../ProductRow/ProductRow";
+import './ProductTable.css'
 
 function ProductTable() {
     return (
         <>
             <table>
                 <thead>
-                    <th>
-                        <td>Table header</td>
-                    </th>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                    </tr>
                 </thead>
                 <tbody>
                     <ProductCategoryRow />

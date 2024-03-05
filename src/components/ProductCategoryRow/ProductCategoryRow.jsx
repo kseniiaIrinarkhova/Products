@@ -1,7 +1,7 @@
 
 function ProductCategoryRow() {
   return (
-    <div>ProductCategoryRow</div>
+    <tr><th colSpan={2}>Category</th></tr>
   )
 }
 
