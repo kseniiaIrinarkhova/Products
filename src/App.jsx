@@ -1,12 +1,13 @@
-import './App.css'
+import './App.css';
+import FilterableProductTable from './components/FilterableProductTable/FilterableProductTable';
 
 function App() {
 
   return (
     <>
-      <h1>Main page</h1>
+     <FilterableProductTable/>
     </>
   )
 }
 
-export default App
+export default App;
